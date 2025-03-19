@@ -20,7 +20,7 @@ TMDB CLI Tool is a simple command-line application that allows you to fetch info
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/tmdb-cli.git
+git clone https://github.com/che1nov/tmdb-cli.git
 cd tmdb-cli
 ```
 
@@ -36,11 +36,6 @@ Create a `.env` file in the root of the project and specify the environment vari
 
 ```env
 TMDB_API_KEY=your_tmdb_api_key
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=postgres
-DB_NAME=tmdb_cli
 PORT=8080
 REDIS_ADDR=localhost:6379
 REDIS_PASSWORD=
